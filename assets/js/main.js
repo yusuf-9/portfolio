@@ -26,9 +26,9 @@
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
-			window.setTimeout(function() {
+			// window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			// }, 100);
 		});
 
 	// Fix: Flexbox min-height bug on IE.
@@ -152,7 +152,7 @@
 
 									}, 25);
 
-							}, delay);
+							}, 25);
 
 					}
 
@@ -191,7 +191,7 @@
 
 									}, 25);
 
-							}, delay);
+							}, 25);
 
 					}
 
@@ -281,7 +281,7 @@
 
 							}, 25);
 
-					}, delay);
+					}, 25);
 
 
 			};
